@@ -1,0 +1,227 @@
+{
+    "quiz": {
+        "title": "Quiz Title",
+        "questions": [
+            {
+                "title": "Question 1",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 2",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 3",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 4",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 5",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 6",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 7",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 8",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 9",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            },
+            {
+                "title": "Question 10",
+                "answers": [
+                    {
+                        "answer": "first answer",
+                        "isCorrect": true
+                    },
+                    {
+                        "answer": "second answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    },
+                    {
+                        "answer": "first answer",
+                        "isCorrect": false
+                    }
+                ],
+                "points": 10
+            }
+        ]
+    }
+}
