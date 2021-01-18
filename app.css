@@ -23,6 +23,10 @@ body{
     width: 80%;
 }
 
+.question {
+    width: 100%;
+}
+
 .quiz-info {
     display: flex;
     justify-content: space-between;
