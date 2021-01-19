@@ -78,6 +78,18 @@ body{
     min-width: 45%;
 }
 
+.answers li:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.answers li.active {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
 .questions-info {
     border: 0.2rem solid rgb(32, 77, 226);
     border-radius: 0.5rem;

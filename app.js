@@ -1,13 +1,13 @@
 
-//selectors
-
 class Quiz {
 
     constructor() {
         this.question_nr = document.querySelector('.question-nr span');
         this.question_title = document.querySelector('.question h3');
         this.answers = document.querySelector('.answers');
+        this.allAnswers = document.querySelectorAll('.answer');
         this.nextBtn = document.querySelector('.quiz-nav');
+        this.questionsPoints = document.querySelector('.questions-info');
         this.quiz = '';
         this.current_question = 0;
         this.nextQuestion = 0;
@@ -47,10 +47,24 @@ class Quiz {
         this.question_title.innerText = this.quiz.questions[key].title;
         this.quiz.questions[key].answers.forEach(answer => {
             let new_answer = document.createElement('li');
+            new_answer.classList.add('answer');
             new_answer.innerText = answer.answer;
             this.answers.appendChild(new_answer);
         });
         this.nextQuestion++;
+    }
+
+    getQuestionsPoints() {
+        this.questionsPoints.innerHTML = '';
+        this.quiz.questions.forEach((question, index) => {
+            let new_question = document.createElement('li');
+            new_question.innerText = ++index + '.' + question.points;
+            this.questionsPoints.appendChild(new_question);
+        });
+    }
+
+    setActiveAnswer(event) {
+        console.log(event);
     }
 
     async getQuiz(url) {
@@ -59,6 +73,8 @@ class Quiz {
         console.log(quiz);
 
         this.getQuestion(0);
+
+        this.getQuestionsPoints();
 
     }
 
@@ -69,6 +85,9 @@ class Quiz {
 
 quiz = new Quiz();
 
+//display quiz
+quiz.getQuiz('./quiz.json');
+
 //add events
 
 quiz.nextBtn.addEventListener('click', function () {
@@ -76,7 +95,8 @@ quiz.nextBtn.addEventListener('click', function () {
 });
 
 
-//display quiz
-quiz.getQuiz('./quiz.json');
+
+
+
 
 
