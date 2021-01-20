@@ -30,6 +30,13 @@ class Quiz {
         }
     }
 
+    displayResults() {
+        this.nextBtn.remove();
+        this.answers.remove();
+        this.question_nr.parentElement.remove();
+        this.question_title.innerText = "Yo've finished the quiz, you guessed " + this.final_score + " of " + this.quiz.questions.length;
+    }
+
     loadNextQuestion(e) {
         if (this.nextQuestion < this.quiz.questions.length) {
             this.checkAnswer();
@@ -37,8 +44,7 @@ class Quiz {
         } else {
             //check final answer and then reset quiz
             this.checkAnswer();
-            alert("Yo've finished the quiz, you guessed " + this.final_score + " of " + this.quiz.questions.length);
-
+            this.displayResults();
         }
         this.current_question_index++;
     }
